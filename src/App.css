@@ -1,0 +1,237 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+naresh */
+
+/* Container for the navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px;
+  gap: 20px; /* Space between links */
+}
+
+/* Link styles */
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #575757;
+  color: #ffffff;
+}
+
+/* Active link style */
+nav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+
+
+/* coloures for buttons */
+
+
+
+/* General button styling */
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: rgb(33, 114, 133);
+  font-weight: bold;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Increment Button */
+.button-increment {
+  background-color: #00FF00; /* Neon Green */
+}
+
+.button-increment:hover {
+  background-color: #00e600;
+}
+
+/* Decrement Button */
+.button-decrement {
+  background-color: #FF0000; /* Bright Red */
+}
+
+.button-decrement:hover {
+  background-color: #cc0000;
+}
+
+/* Remove Button */
+.button-remove {
+  background-color: #FFA500; /* Bright Orange */
+}
+
+.button-remove:hover {
+  background-color: #e69500;
+}
+
+/* Discount Buttons */
+.button-discount-10 {
+  background-color: #1E90FF; /* Bright Blue */
+}
+
+.button-discount-10:hover {
+  background-color: #1c86ee;
+}
+
+.button-discount-20 {
+  background-color: #00CED1; /* Bright Cyan */
+}
+
+.button-discount-20:hover {
+  background-color: #00b3b3;
+}
+
+.button-discount-30 {
+  background-color: #9400D3; /* Bright Purple */
+}
+
+.button-discount-30:hover {
+  background-color: #8200c1;
+}
+
+/* Coupon Button */
+.button-coupon {
+  background-color: #FF1493; /* Bright Pink */
+}
+
+.button-coupon:hover {
+  background-color: #e01186;
+}
+
+/* Clear Cart Button */
+.button-clear-cart {
+  background-color: #FF4500; /* Bright Orange-Red */
+}
+
+.button-clear-cart:hover {
+  background-color: #e03d00;
+}
+
+/* aAboutUs Styles */
+
+
+
+/* About Us Component Styling */
+.about-us {
+  background-color: #f3f4f6; /* Light grayish background for a clean look */
+  color: #1a202c; /* Dark text for readability */
+  padding: 40px;
+  max-width: 850px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.about-us h1 {
+  color: #2c5282; /* Rich blue for the main heading */
+  font-size: 2.6em;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.about-us h2 {
+  color: #2d3748; /* Slightly lighter dark color */
+  font-size: 1.8em;
+  margin-top: 25px;
+  border-bottom: 2px solid #4a5568; /* Accent underline */
+  padding-bottom: 5px;
+}
+
+.about-us p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #4a5568; /* Dark grey for a soft look */
+  margin-bottom: 15px;
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us ul li {
+  background: #e2e8f0; /* Soft background for list items */
+  color: #2d3748; /* Darker text for contrast */
+  font-size: 1.1em;
+  padding: 12px;
+  margin: 8px 0;
+  border-left: 4px solid #2c5282; /* Accent on the left */
+  border-radius: 6px;
+}
+
+.about-us ul li strong {
+  color: #2c5282;
+}
+
+.about-us p:last-child {
+  font-weight: bold;
+  color: #2c5282;
+  margin-top: 20px;
+}
